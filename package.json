@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/KwinstonRoberts/KwinstonRoberts.github.io/issues"
   },
-  "homepage": "https://github.com/KwinstonRoberts/KwinstonRoberts.github.io#readme"
+  "homepage": "https://github.com/KwinstonRoberts/KwinstonRoberts.github.io#readme",
+  "dependencies": {
+    "ejs": "^2.5.7"
+  }
 }

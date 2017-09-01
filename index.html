@@ -6,20 +6,20 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet">
   <link rel="stylesheet" href="layout.css">
-
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css">
-
   <title>Kyle Roberts</title>
 </head>
 <body>
-  <div class='navbar-fixed hide-on-med-and-up'>
+  <div class='navbar-fixed hide-on-large'>
     <nav class='teal'>
-      <ul>
-        <li><a href="#education">Education</a></li>
-        <li><a href="#employment">Employment</a></li>
-        <li><a href="#projects">Projects</a></li>
-        <li><a href="#skills">Skills</a></li>
-      </ul>
+      <div calss='nav-wrapper'>
+        <ul class='brand-logo'>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#employment">Employment</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#education">Education</a></li>
+        </ul>
+      </div>
     </nav>
   </div>
   <div id='resume' class='container'>
@@ -28,73 +28,19 @@
       <h5>Web Developer</h5>
     </div>
     <div class='row'>
-      <p class='col s6 m3 offset-m2 offset-s1'><i class="fa fa-envelope"></i>kyle.w.r@hotmail.com</p>
-      <p class='col s5 m2'><i class="fa fa-phone"></i>647-761-9205</p>
-      <p class='col s6 m3 offset-s1'><i class="fa fa-map-marker"></i>1233 Cornerbrook Place</p>
-      <p class='col s5 m2 offset-m4'><a class='badge teal-text' href='https://www.linkedin.com/in/kyle-roberts-6a67818a'><i class='fa fa-linkedin'></i>LinkedIn</a></p>
-      <p class='col s6 m3 offset-s3'><a class='badge teal-text' href='https://www.linkedin.com/in/kyle-roberts-6a67818a'><i class='fa fa-github'></i>KwinstonRoberts</a></p>
+      <p class='col s6 m4 center'><i class="fa fa-envelope"></i>kyle.w.r@hotmail.com</p>
+      <p class='col s6 m4 center'><i class="fa fa-phone"></i>647-761-9205</p>
+      <p class='col s6 m4 center'><i class="fa fa-map-marker"></i> Toronto, ON</p>
+      <p class='col s6 m3 offset-m3 center'><a class='badge teal-text' href='https://www.linkedin.com/in/kyle-roberts-6a67818a'><i class='fa fa-linkedin'></i>LinkedIn</a></p>
+      <p class='col s12 m3 center'><a class='badge teal-text' href='https://www.linkedin.com/in/kyle-roberts-6a67818a'><i class='fa fa-github'></i>KwinstonRoberts</a></p>
     </div>
     <div class='row'>
       <h4 class='col s6 m3 offset-s3 center'>Summary</h4>
-      <p class='col m8 offset-m1'>My goal is to work in the Web Development industry with like minded people and a constructive work environment. The majority of my experience with code came after my time in art school, where I became interested in programming both as an art form and to create satisfying user experiences. Open source hardware programming is one of my greatest cures for boredom.</p>
+      <p class='col s12 m8 offset-m1 center'>My goal is to work in the Web Development industry with like minded people and a constructive work environment. The majority of my experience with code came after my time in art school, where I became interested in programming both as an art form and to create satisfying user experiences. Open source hardware programming is one of my greatest cures for boredom.</p>
     </div>
     <div class='row'>
-      <h4 id='education' class='col s6 m3 offset-s3 center'>Education</h4>
-      <div class='center col s12 m8 offset-m1'>
-        <h5>Sheridan College</h5>
-        <p>Courses Taken</p>
-        <h5>Lighthouse</h5>
-        <p>2 month bootcamp program</p>
-      </div>
-    </div>
-    <div class='row'>
-      <h4 id='employment' class='col s6 m3 offset-s3'>Employment</h4>
-      <div class='col m8 offset-m1'>
-        <div class='row center'>
-          <h5 class='col s12 m6'><b>Grabop Inc.</b></h5>
-          <h5 class='col s12 m5 offset-m1'><b>Mississauga(remote)</b></h5>
-          <p class='col s6 m6'>Front End Developer</p>
-          <p class='col s6 m5 offset-m1'>Sep 2016 to Current</p>
-          <p class='col s12'>Long-term contract, with payment at conclusion. Worked with Angular 1 and 2 with Typescript.</p>
-        </div>
-        <div class='row center'>
-          <h5 class='col s12 m6'><b>Alaskan Water Seafood</b></h5>
-          <h5 class='col s12 m5 offset-m1'><b>Brampton, Ontario</b></h5>
-          <p class='col s6 m6'>IT support</p>
-          <p class='col s6 m5s offset-m1'>Aug 2014 to Aug 2016</p>
-        </div>
-        <div class='row center'>
-          <h5 class='col s12 m6'><b>Elation Design Inc.</b></h5>
-          <h5 class='col s12 m5 offset-m1'><b>Mississauga(remote)</b></h5>
-          <p class='col s6 m6'>Junior Web Developer</p>
-          <p class='col s6 m5 offset-m1'>Aug 2014 to Mar 2017</p>
-        </div>
-      </div>
-    </div>
-    <div id='projects' class='row'>
-      <h4 class='col s4 m3 offset-s4 center'>Projects</h4>
-      <div class='col m8 offset-m1'>
-        <div class='row center'>
-          <a href='https://zuckerburgers.herokuapp.com' class='col s12 m7 teal-text'><b>Zuckerburgers(Lighthouse Labs midterm)</b></a>
-          <h6 class='col s12 m4 offset-m1 center'><b>Aug 14-Aug 20</b></h6>
-          <p class='col s12'>Midterm project to showcase skills with the Twilio api, as well as with version control and full stack development skills.</p>
-        </div>
-        <div class='row center'>
-          <a href='http://www.alaskanwaterseafood.com' class='col s12 m7 teal-text'><b>Alaskan Water Seafood</b></a>
-          <p class='col s12 m4 offset-m1 center'><b>Aug 21-Aug 23</b></p>
-          <p class='col s12'>Simple WebSocket app for message communication with image embedding.</p>
-        </div>
-        <div class='row center'>
-          <a href='http://www.elationds.com' class='col s12 m7 teal-text'><b>Elation Design Inc.</b></a>
-          <p class='col s12 m4 offset-m1 center'><b>Dec 2015-June 2016</b></p>
-          <p class='col m12'>Built using Wordpress and a base template theme.
-Designed as an inventory showcase and CTA for seafood delivery and distribution.</p>
-        </div>
-      </div>
-    </div>
-    <div class='row'>
-      <h4 id='skills' class='col m2 offset-s4 center'>Skills</h4>
-      <div class='col m8 offset-m2'>
+      <h4 id='skills' class='col s4 m2 offset-s4 center'>Skills</h4>
+      <div class='col s10 offset-s1 m8 offset-m2 center'>
         <p class="col m4">Angular</p>
         <p class="col m4">Angular2</p>
         <p class="col m4">Typescript</p>
@@ -111,6 +57,85 @@ Designed as an inventory showcase and CTA for seafood delivery and distribution.
         <p class="col m4">MongoDB</p>
         <p class="col m4">Postgres</p>
         <p class="col m4">Ruby</p>
+      </div>
+    </div>
+    <div class='row'>
+      <h4 id='employment' class='col s10 m3 offset-s1 center'>Employment</h4>
+      <div class='col s10 offset-s1 m8 offset-m1'>
+        <div class='row'>
+          <h5 class='col s12 m6 center'><b>Grabop Inc.</b></h5>
+          <h5 class='col s12 m6 center'><b>Mississauga(remote)</b></h5>
+          <p class='col s12 m6 center'>Front End Developer</p>
+          <p class='col s12 m6 center'>Sep 2016 to Current</p>
+          <p class='col s12 center'>Long-term profit sharing proect. Worked with Angular 1 and 2 with Typescript.</p>
+        </div>
+        <div class='row'>
+          <h5 class='col s12 m6 center'><b>Alaskan Water Seafood</b></h5>
+          <h5 class='col s12 m6 center'><b>Brampton, Ontario</b></h5>
+          <p class='col s12 m6 center'>IT support</p>
+          <p class='col s12 m6 center'>Aug 2014 to Aug 2016</p>
+          <p class='col s12 center'>Worked with senior It to manage the office file sharing server, maintain contacts in a database and create emails for the sales force.</p>
+        </div>
+        <div class='row'>
+          <h5 class='col s12 m6 center'><b>Elation Design Inc.</b></h5>
+          <h5 class='col s12 m6 center'><b>Mississauga(remote)</b></h5>
+          <p class='col s12 m6 center'>Junior Web Developer</p>
+          <p class='col s12 m6 center'>Aug 2014 to Mar 2017</p>
+          <p class='col s12 center'>Worked from design mockups to build wordpress sites for small businesses, as well as data transfer for moving from an old site to a new one.</p>
+        </div>
+      </div>
+    </div>
+    <div id='projects' class='row'>
+      <h4 class='col s6 m3 offset-s3 center'>Projects</h4>
+      <div class='col m8 offset-m1'>
+        <div class='row'>
+          <a href='https://zuckerburgers.herokuapp.com' class='col s12 m7 teal-text center'><b>Zuckerburgers(Lighthouse Labs midterm)</b></a>
+          <h6 class='col s12 m4 offset-m1 center'><b>Aug 14-Aug 20</b></h6>
+          <div class='row'>
+            <p class='col s12 center'>Midterm project to showcase skills with the Twilio api, as well as with version control and full stack development skills.</p>
+          </div>
+          <div class='row center'>
+            <b class='col s12'>Technologies Used:</b>
+            <p class='chip'>Sass</p>
+            <p class='chip'>NodeJS</p>
+            <p class='chip'>Express</p>
+          </div>
+        </div>
+        <div class='row'>
+          <a href='http://www.alaskanwaterseafood.com' class='col s12 m7 center teal-text'><b>Alaskan Water Seafood</b></a>
+          <h6 class='col s12 m4 offset-m1 center'><b>Aug 21-Aug 23</b></h6>
+          <div class='row'>
+            <p class='col s12 center'>Simple WebSocket app for message communication with image embedding.</p>
+          </div>
+          <div class='row center'>
+            <b class='col s12'>Technologies Used: </b>
+            <p class='chip'>Wordpress</p>
+            <p class='chip'>CSS</p>
+            <p class='chip'>PHP</p>
+          </div>
+        </div>
+        <div class='row'>
+          <a href='http://www.elationds.com' class='col s12 m7 center teal-text'><b>Elation Design Inc.</b></a>
+          <h6 class='col s12 m4 offset-m1 center'><b>Dec 2015-June 2016</b></h6>
+          <div class='row'>
+            <p class='col m12 center'>Built using Wordpress and a base templatev theme. Designed as an inventory showcase and CTA for seafood delivery and distribution.</p>
+          </div>
+          <div class='row center'>
+            <b class='col s12'>Technologies Used: </b>
+            <p class='chip'>Wordpress</p>
+            <p class='chip'>CSS</p>
+            <p class='chip'>PHP</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class='row'>
+      <h4 id='education' class='col s8 m3 offset-s2 center'>Education</h4>
+      <div class='center col s12 m8 offset-m1'>
+        <h5>Sheridan College</h5>
+        <p>Courses Taken</p>
+        <h5>Lighthouse</h5>
+        <p>Immersive Web Development program</p>
       </div>
     </div>
   </div>
